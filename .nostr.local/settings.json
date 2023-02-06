@@ -1,10 +1,10 @@
 {
   "info": {
-    "relay_url": "wss://nostream.localtest.me",
-    "name": "nostream.localtest.me",
+    "relay_url": "wss://nostr.pcdkd.fyi",
+    "name": "nostr.pcdkd.fyi",
     "description": "A nostr relay written in Typescript.",
-    "pubkey": "00000000827ffaa94bfea288c3dfce4422c794fbb96625b6b31e9049f729d700",
-    "contact": "operator@your-domain.com"
+    "pubkey": "76a9b427de6a6732e14c27dc7b3c72931983e1da7ad6ead78ac25fa79f2432ff",
+    "contact": "x@pcdkd.xyz"
   },
   "network": {
     "maxPayloadSize": 131072,
@@ -12,7 +12,7 @@
     "idleTimeout": 60
   },
   "payments": {
-    "enabled": true,
+    "enabled": false,
     "processor": "zebedee",
     "feeSchedules": {
       "admission": [{
@@ -25,7 +25,7 @@
       }],
       "publication": [
         {
-          "enabled": true,
+          "enabled": false,
           "description": "Publication fee in msats (1000 msats = 1 satoshi)",
           "amount": 100,
           "whitelists": {
